@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+         <record id="view_automate_wizard_form" model="ir.ui.view">
+            <field name="name">automate.wizard.form</field>
+            <field name="model">automate.wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="warehouse_id"/>
+                        <field name="file" widget="binary"/>
+                        <field name="partner_id"/>
+                    </group>
+                    <footer>
+                        <button string="Submit" type="object" name="create_sale_orders"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+         <record id="action_automate_wizard" model="ir.actions.act_window">
+            <field name="name">Automate Orders</field>
+            <field name="res_model">automate.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_automate_wizard_form"/>
+             <field name="target">new</field>
+
+        </record>
+
+
+        <!-- Action Window -->
+
+
+        <!-- View -->
+
+          <!-- Menu Item -->
+            <menuitem id="menu_automate_orders" name="Automate Orders" parent="sale.sale_menu_root" sequence="10"/>
+                <menuitem id="menu_automate_wizard" name="Create Orders" parent="base_accounting_kit.menu_automate_orders" action="action_automate_wizard" sequence="10"/>
+
+
+    </data>
+</odoo>

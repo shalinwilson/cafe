@@ -60,6 +60,7 @@
         'data/multiple_invoice_data.xml',
         'data/recurring_entry_cron.xml',
         'views/assets.xml',
+        'views/aautomate_orders_view.xml',
         'views/dashboard_views.xml',
         'views/reports_config_view.xml',
         'views/accounting_menu.xml',

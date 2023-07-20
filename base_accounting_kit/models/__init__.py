@@ -36,4 +36,5 @@ from . import multiple_invoice_layout
 from . import recurring_payments
 from . import account_payment
 from . import res_company
+from . import automate
 

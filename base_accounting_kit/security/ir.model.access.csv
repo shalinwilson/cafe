@@ -49,3 +49,4 @@ access_generate_recurring_entries,generate.recurring.entries.user,model_account_
 
 
 
+access_automate_wizard,access.automate.wizard,model_automate_wizard,base.group_user,1,1,1,1
