@@ -1,0 +1,66 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.pyw
+
+# Virtual Environment
+venv/
+.env/
+
+# Python environment
+*.pyc
+.python-version
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.pyw
+*.DS_Store
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.pyw
+*.exe
+*.dll
+*.so
+*.pyd
+*.pyz
+*.pyo
+*.pyc
+*.pyw
+*.manifest
+*.spec
+*.bak
+*.swp
+
+# Database
+*.sqlite3
+db.sqlite3
+*.sqlitedb
+*.db
+
+# Cache
+__pycache__/
+.cache/
+
+# Logs
+*.log
+*.logs
+
+# Backup files
+*.bak
+*.backup
+*.swp
