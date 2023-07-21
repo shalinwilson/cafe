@@ -28,7 +28,8 @@ class ProductTemplate(models.Model):
 
     asset_category_id = fields.Many2one('account.asset.category', string='Asset Type', company_dependent=True, ondelete="restrict")
     deferred_revenue_category_id = fields.Many2one('account.asset.category', string='Deferred Revenue Type', company_dependent=True, ondelete="restrict")
-
+    store_type = fields.Char()
+    group = fields.Char()
     def _get_asset_accounts(self):
         res = super(ProductTemplate, self)._get_asset_accounts()
         if self.asset_category_id:
