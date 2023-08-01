@@ -50,7 +50,7 @@
     'website': "https://www.cybrosys.com",
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'depends': ['base', 'account', 'sale', 'account_check_printing', 'base_account_budget','analytic','website'],
+    'depends': ['base', 'account', 'sale', 'account_check_printing', 'base_account_budget','analytic','website','product'],
     'data': [
         'security/ir.model.access.csv',
         'security/security.xml',
